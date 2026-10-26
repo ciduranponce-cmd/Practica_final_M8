@@ -29,6 +29,9 @@
                 android:id="@+id/btnCerrarSesion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:textColor="#2F7D73"
+                android:elevation="0dp"
                 android:text="Salir" />
 
         </LinearLayout>
@@ -67,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:background="#E5F4F1"
+            android:background="@drawable/card_redondeado"
             android:gravity="center"
             android:orientation="vertical"
             android:padding="24dp">
@@ -101,6 +104,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:backgroundTint="#2F7D73"
                 android:text="ABRIR CÁMARA" />
 
         </LinearLayout>
@@ -109,7 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:background="#F1F1F1"
+            android:background="@drawable/card_redondeado"
             android:gravity="center"
             android:orientation="vertical"
             android:padding="24dp">
@@ -126,6 +130,7 @@
                 android:layout_marginTop="8dp"
                 android:text="Mi galería"
                 android:textSize="21sp"
+                android:textColor="#155D55"
                 android:textStyle="bold" />
 
             <TextView
@@ -133,6 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:gravity="center"
+                android:textColor="#000000"
                 android:text="Consulta las fotografías que has guardado."
                 android:textSize="14sp" />
 
@@ -141,6 +147,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:backgroundTint="#2F7D73"
                 android:text="VER MIS FOTOS" />
 
         </LinearLayout>

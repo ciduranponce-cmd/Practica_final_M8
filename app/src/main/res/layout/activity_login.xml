@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E5F4F1"
     android:fillViewport="true">
 
     <LinearLayout
@@ -11,12 +12,24 @@
         android:orientation="vertical"
         android:padding="24dp">
 
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Logo de CapturaT"
+            android:scaleType="fitCenter"
+            android:src="@drawable/capturatinicio" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="CapturaT"
             android:textSize="32sp"
+            android:background="#E5F4F1"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
@@ -25,6 +38,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center"
             android:text="Inicia sesión para continuar"
+            android:background="#E5F4F1"
             android:textSize="16sp" />
 
         <EditText
@@ -34,6 +48,8 @@
             android:layout_marginTop="32dp"
             android:hint="Correo electrónico"
             android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#174C45"
             android:maxLines="1" />
 
         <EditText
@@ -43,6 +59,8 @@
             android:layout_marginTop="12dp"
             android:hint="Contraseña"
             android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#174C45"
             android:maxLines="1" />
 
         <Button
@@ -50,6 +68,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
+            android:backgroundTint="#2F7D73"
+            android:textColor="#FFFFFF"
             android:text="INICIAR SESIÓN" />
 
         <TextView
@@ -68,6 +88,7 @@
             android:gravity="center"
             android:padding="8dp"
             android:text="¿No tienes cuenta? Regístrate"
+            android:background="#E5F4F1"
             android:textSize="16sp" />
 
     </LinearLayout>

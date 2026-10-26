@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E5F4F1"
     android:fillViewport="true">
 
     <LinearLayout
@@ -15,8 +16,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="FotosGPS"
+            android:text="CapturaT"
             android:textSize="30sp"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
@@ -25,6 +27,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center"
             android:text="Crear una cuenta"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <EditText
@@ -34,6 +37,8 @@
             android:layout_marginTop="28dp"
             android:hint="Nombre"
             android:inputType="textCapWords"
+            android:textColor="#000000"
+            android:textColorHint="#174C45"
             android:maxLines="1" />
 
         <EditText
@@ -43,6 +48,8 @@
             android:layout_marginTop="8dp"
             android:hint="Apellidos"
             android:inputType="textCapWords"
+            android:textColor="#000000"
+            android:textColorHint="#174C45"
             android:maxLines="1" />
 
         <EditText
@@ -52,6 +59,8 @@
             android:layout_marginTop="8dp"
             android:hint="Correo electrónico"
             android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#174C45"
             android:maxLines="1" />
 
         <EditText
@@ -61,6 +70,8 @@
             android:layout_marginTop="8dp"
             android:hint="Contraseña"
             android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#174C45"
             android:maxLines="1" />
 
         <EditText
@@ -70,6 +81,8 @@
             android:layout_marginTop="8dp"
             android:hint="Confirmar contraseña"
             android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#174C45"
             android:maxLines="1" />
 
         <Button
@@ -77,6 +90,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
+            android:backgroundTint="#2F7D73"
+            android:textColor="#FFFFFF"
             android:text="REGISTRARME" />
 
         <TextView

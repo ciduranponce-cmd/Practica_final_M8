@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-        binding.tvNombreUsuario.text = "Hola, $nombre 👋"
+        binding.tvNombreUsuario.text = "$nombre 👋"
 
 
         binding.btnTomarFoto.setOnClickListener {
